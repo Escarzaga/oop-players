@@ -26,38 +26,6 @@ class FootballPlayer(Player):
         self.red_cars = red_cards
 
 
-kev_dur = BasketballPlayer(first_name="Kevin",
-                           last_name="Durant",
-                           height_cm=210,
-                           weight_kg=108,
-                           points=27.2,
-                           rebounds=7.1,
-                           assists=4)
-
-lebron = BasketballPlayer(first_name="Lebron",
-                          last_name="James",
-                          height_cm=203,
-                          weight_kg=113,
-                          points=27.2,
-                          rebounds=7.4,
-                          assists=7.2)
-
-messi = FootballPlayer(first_name="Lionel",
-                       last_name="Messi",
-                       height_cm=170,
-                       weight_kg=67,
-                       goals=575,
-                       yellow_cards=67,
-                       red_cards=0)
-
-ronaldo = FootballPlayer(first_name="Cristiano",
-                         last_name="Ronaldo",
-                         height_cm=184,
-                         weight_kg=79,
-                         goals=586,
-                         yellow_cards=95,
-                         red_cards=11)
-
 print("/////  Introduce Football player's information  //////")
 
 f_name = input("Player's first name: ")
